@@ -13,19 +13,12 @@ $ns: bp3 !default;
 $pt-grid-size: 10px !default;
 
 // see https://bitsofco.de/the-new-system-font-stack/
-$pt-font-family: -apple-system,
-                 "BlinkMacSystemFont",
-                 "Segoe UI",
-                 "Roboto",
-                 "Oxygen",
-                 "Ubuntu",
-                 "Cantarell",
+$pt-font-family: "Roboto",
                  "Open Sans",
-                 "Helvetica Neue",
                  "Icons16", // support inline Palantir icons
                  sans-serif !default;
 
-$pt-font-family-monospace: monospace !default;
+$pt-font-family-monospace: "IBM plex" !default;
 
 $pt-font-size: $pt-grid-size * 1.4 !default;
 $pt-font-size-large: $pt-grid-size * 1.6 !default;
@@ -44,7 +37,7 @@ $pt-icon-size-large: 20px !default;
 
 // Grids & dimensions
 
-$pt-border-radius: floor($pt-grid-size / 3) !default;
+$pt-border-radius: floor($pt-grid-size / 10) !default;
 
 // Buttons
 $pt-button-height: $pt-grid-size * 3 !default;

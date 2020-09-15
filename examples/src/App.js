@@ -8,18 +8,37 @@ import { Button, Card, Elevation } from "@blueprintjs/core";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Test</h1>
- 
-        <Card interactive={true} elevation={Elevation.TWO}>
-            <h5><a href="#">Card heading</a></h5>
-            <p>Card content</p>
-            <Button>Submit</Button>
-        </Card>
-      </header>
+    <div className="App" >
+
+
+
+
+                    <Card interactive={true} elevation={Elevation.ZERO}>
+                        <h5><a href="#">Card heading</a></h5>
+                        <p>Card content</p>
+                        <Button>Submit</Button>
+                    </Card>
+                    <Card interactive={true} elevation={Elevation.ZERO}>
+                        <h5><a href="#">Card heading</a></h5>
+                        <p>Card content</p>
+                        <Button>Submit</Button>
+                    </Card>
+                    <Card interactive={true} elevation={Elevation.ZERO}>
+                        <h5><a href="#">Card heading</a></h5>
+                        <p>Card content</p>
+                        <Button>Submit</Button>
+                    </Card>
+                    <Card interactive={true} elevation={Elevation.ZERO}>
+                        <h5><a href="#">Card heading</a></h5>
+                        <p>Card content</p>
+                        <Button>Submit</Button>
+                    </Card>
+
+
+
     </div>
-  );
+
+);
 }
 
 export default App;
