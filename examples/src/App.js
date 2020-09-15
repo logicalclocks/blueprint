@@ -34,7 +34,10 @@ function App() {
                         <Button>Submit</Button>
                     </Card>
 
+                    <Card interactive={false} elevation={Elevation.TWO}>
+                    <Button icon="refresh" />
 
+                    </Card>
 
     </div>
 
